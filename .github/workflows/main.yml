@@ -8,8 +8,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-      with:
-      #  path: gh-action-send-event # uncomment to test locally
     - name: Send Keptn Event
       id: send-keptn-event
       uses: keptn/gh-action-send-event@feature/implement-action # use ./ to test locally
