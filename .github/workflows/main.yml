@@ -11,10 +11,9 @@ jobs:
     - name: Send Keptn Event
       id: send-keptn-event
       uses: keptn/gh-action-send-event@feature/implement-action # use ./ to test locally
-      env:
-        KEPTN_API_URL: ${{ secrets.KEPTN_API_URL }}
-        KEPTN_API_TOKEN: ${{ secrets.KEPTN_API_TOKEN }}
       with:
+        keptnApiUrl: ${{ secrets.KEPTN_API_URL }}
+        keptnApiToken: ${{ secrets.KEPTN_API_TOKEN }}
         event: |
           {
             "data": {
