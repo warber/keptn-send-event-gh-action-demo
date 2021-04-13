@@ -27,7 +27,7 @@ jobs:
                 "deploymentURIsLocal": null,
                 "deploymentstrategy": "direct"
               },
-              "message": " ",
+              "message": "",
               "project": "sockshop2",
               "result": "",
               "service": "carts-db",
