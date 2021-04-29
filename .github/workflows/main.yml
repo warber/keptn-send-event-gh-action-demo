@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Send Keptn Event
       id: send-keptn-event
-      uses: keptn/gh-action-send-event@feature/implement-action
+      uses: keptn/gh-action-send-event@main
       with:
         keptnApiUrl: ${{ secrets.KEPTN_API_URL }}
         keptnApiToken: ${{ secrets.KEPTN_API_TOKEN }}
