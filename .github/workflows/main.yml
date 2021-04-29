@@ -14,7 +14,7 @@ jobs:
       with:
         keptnApiUrl: ${{ secrets.KEPTN_API_URL }}
         keptnApiToken: ${{ secrets.KEPTN_API_TOKEN }}
-        events: |
+        event: |
           {
             "data": {
               "configurationChange": {
