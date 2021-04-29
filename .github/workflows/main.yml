@@ -30,11 +30,11 @@ jobs:
               "service": "carts-db",
               "stage": "dev"
             },
-            "id": "64c55e3c-37a3-447a-88e0-e0c0d8d37272",
+            "id": "",
             "source": "https://github.com/keptn/keptn/cli#configuration-change",
             "specversion": "1.0",
-            "time": "2021-04-27T10:18:02.329Z",
+            "time": "",
             "type": "sh.keptn.event.dev.delivery-direct.triggered",
-            "shkeptncontext": "ae332c6a-2281-455b-9f8e-38769f58f0ed"
+            "shkeptncontext": ""
           }
 
