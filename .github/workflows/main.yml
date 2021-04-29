@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Send Keptn Event
       id: send-keptn-event
-      uses: keptn/gh-action-send-event@feature/implement-action # use ./ to test locally
+      uses: keptn/gh-action-send-event@feature/implement-action
       with:
         keptnApiUrl: ${{ secrets.KEPTN_API_URL }}
         keptnApiToken: ${{ secrets.KEPTN_API_TOKEN }}
@@ -24,18 +24,17 @@ jobs:
               },
               "deployment": {
                 "deploymentURIsLocal": null,
-                "deploymentstrategy": "direct"
+                "deploymentstrategy": ""
               },
-              "message": " ",
-              "project": "sockshop2",
-              "result": "",
+              "project": "sockshop",
               "service": "carts-db",
-              "stage": "dev",
-              "status": ""
+              "stage": "dev"
             },
-            "source": "gh",
+            "id": "64c55e3c-37a3-447a-88e0-e0c0d8d37272",
+            "source": "https://github.com/keptn/keptn/cli#configuration-change",
             "specversion": "1.0",
-            "type": "sh.keptn.event.dev.delivery.triggered",
-            "shkeptnspecversion": "0.2.1"
+            "time": "2021-04-27T10:18:02.329Z",
+            "type": "sh.keptn.event.dev.delivery-direct.triggered",
+            "shkeptncontext": "ae332c6a-2281-455b-9f8e-38769f58f0ed"
           }
 
